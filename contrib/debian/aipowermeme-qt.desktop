@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=AIPowerMeme Core
+Comment=AIPowerMeme P2P Cryptocurrency
+Comment[de]=Verbinde mit dem AIPowerMeme peer-to-peer Netzwerk
+Comment[fr]=AIPowerMeme, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AIPowerMeme, eşten eşe kriptografik sanal para birimi
+Exec=aipowermeme-qt %u
+Terminal=false
+Type=Application
+Icon=aipowermeme128
+MimeType=x-scheme-handler/aipowermeme;
+Categories=Office;Finance;P2P;Network;Qt;
+StartupWMClass=AIPowerMeme-qt

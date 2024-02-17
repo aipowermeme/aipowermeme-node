@@ -1,0 +1,42 @@
+FROM ubuntu:focal
+LABEL maintainer="AIPowerMeme Developers <dev@aipowermeme.org>"
+LABEL description="Dockerised AIPowerMeme"
+
+ARG USER_ID
+ARG GROUP_ID
+ARG TAG
+
+ENV HOME /home/aipowermeme
+
+# add user with specified (or default) user/group ids
+ENV USER_ID ${USER_ID:-1000}
+ENV GROUP_ID ${GROUP_ID:-1000}
+RUN groupadd -g ${GROUP_ID} aipowermeme && \
+    useradd -u ${USER_ID} -g aipowermeme -s /bin/bash -m -d /home/aipowermeme aipowermeme  && \
+    mkdir /home/aipowermeme/.aipowermeme && \
+    chown ${USER_ID}:${GROUP_ID} -R /home/aipowermeme
+
+RUN apt-get update && \
+    apt-get -y install --no-install-recommends \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mach=$(uname -m) \
+      && case $mach in aarch64) arch="aarch64-linux-gnu"; ;; x86_64) arch="x86_64-linux-gnu"; ;;  *) echo "ERROR: Machine type $mach not supported."; ;; esac \
+      && wget https://github.com/aipowermeme/releases/download/v${TAG}/aipowermeme-${TAG}-$arch.tar.gz -P /tmp \
+      && tar -xvf /tmp/aipowermeme-*.tar.gz -C /tmp/ \
+      && cp /tmp/aipowermeme*/bin/*  /usr/local/bin \
+      && rm -rf /tmp/aipowermeme* \
+      && chmod a+x /usr/local/bin/*
+
+USER aipowermeme
+
+VOLUME ["/home/aipowermeme"]
+
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
+EXPOSE 16099 9999 26099 26100
+
+WORKDIR /home/aipowermeme

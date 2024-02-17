@@ -1,0 +1,6 @@
+usr/local/bin/aipowermeme-qt usr/bin
+share/pixmaps/aipowermeme32.xpm usr/share/pixmaps
+share/pixmaps/aipowermeme16.xpm usr/share/pixmaps
+share/pixmaps/aipowermeme128.png usr/share/pixmaps
+debian/aipowermeme-qt.desktop usr/share/applications
+debian/aipowermeme-qt.protocol usr/share/kde4/services/

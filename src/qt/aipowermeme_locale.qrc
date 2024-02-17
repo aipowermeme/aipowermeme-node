@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/aipowermeme_ar.qm</file>
+        <file alias="bg">locale/aipowermeme_bg.qm</file>
+        <file alias="de">locale/aipowermeme_de.qm</file>
+        <file alias="en">locale/aipowermeme_en.qm</file>
+        <file alias="es">locale/aipowermeme_es.qm</file>
+        <file alias="fi">locale/aipowermeme_fi.qm</file>
+        <file alias="fr">locale/aipowermeme_fr.qm</file>
+        <file alias="it">locale/aipowermeme_it.qm</file>
+        <file alias="ja">locale/aipowermeme_ja.qm</file>
+        <file alias="ko">locale/aipowermeme_ko.qm</file>
+        <file alias="nl">locale/aipowermeme_nl.qm</file>
+        <file alias="pl">locale/aipowermeme_pl.qm</file>
+        <file alias="pt">locale/aipowermeme_pt.qm</file>
+        <file alias="ro">locale/aipowermeme_ro.qm</file>
+        <file alias="ru">locale/aipowermeme_ru.qm</file>
+        <file alias="sk">locale/aipowermeme_sk.qm</file>
+        <file alias="th">locale/aipowermeme_th.qm</file>
+        <file alias="tr">locale/aipowermeme_tr.qm</file>
+        <file alias="vi">locale/aipowermeme_vi.qm</file>
+        <file alias="zh_CN">locale/aipowermeme_zh_CN.qm</file>
+        <file alias="zh_TW">locale/aipowermeme_zh_TW.qm</file>
+    </qresource>
+</RCC>

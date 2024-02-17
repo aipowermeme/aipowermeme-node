@@ -1,0 +1,22 @@
+QT_TS = \
+  qt/locale/aipowermeme_ar.ts \
+  qt/locale/aipowermeme_bg.ts \
+  qt/locale/aipowermeme_de.ts \
+  qt/locale/aipowermeme_en.ts \
+  qt/locale/aipowermeme_es.ts \
+  qt/locale/aipowermeme_fi.ts \
+  qt/locale/aipowermeme_fr.ts \
+  qt/locale/aipowermeme_it.ts \
+  qt/locale/aipowermeme_ja.ts \
+  qt/locale/aipowermeme_ko.ts \
+  qt/locale/aipowermeme_nl.ts \
+  qt/locale/aipowermeme_pl.ts \
+  qt/locale/aipowermeme_pt.ts \
+  qt/locale/aipowermeme_ro.ts \
+  qt/locale/aipowermeme_ru.ts \
+  qt/locale/aipowermeme_sk.ts \
+  qt/locale/aipowermeme_th.ts \
+  qt/locale/aipowermeme_tr.ts \
+  qt/locale/aipowermeme_vi.ts \
+  qt/locale/aipowermeme_zh_CN.ts \
+  qt/locale/aipowermeme_zh_TW.ts

@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[aipowermeme.aipowermeme_ents]
+file_filter = src/qt/locale/aipowermeme_<lang>.ts
+source_file = src/qt/locale/aipowermeme_en.xlf
+source_lang = en

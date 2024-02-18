@@ -1,7 +1,11 @@
 Coin Name = AIPowerMeme
+
 Ticker = APME
+
 Algorithm = X11
+
 Premine = 100000 (Use for bounties, airdrops, marketing, development fee)
+
 Maximum Supply = 42100000
 
 Block reward = 100
@@ -11,8 +15,11 @@ Block reward structure
 - POW miner block reward = 64%
 
 POW Maturity = 51 confirmation
+
 number of confirmation can be spend = 10 confirmation
+
 Masternode confirmations = 12 confirmation
+
 Smartnode Collateral = 1000
 
 website = https://aipowermeme.io

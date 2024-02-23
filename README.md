@@ -7,9 +7,8 @@
 
 ## Block reward structure
 - Block reward = `100`
-- Superblock reward = `6%`
-- masternode reward = `30%`
-- POW miner block reward = `64%`
+- masternode reward = `27%`
+- POW miner block reward = `63%`
 - POW Maturity = `51` confirmation
 - number of confirmation can be spend = `10` confirmation
 - Masternode confirmations = `12` confirmation

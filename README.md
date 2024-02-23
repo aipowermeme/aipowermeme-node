@@ -1,4 +1,19 @@
-### Coin Info
+AIPowerMeme Node
+=================
+
+Meme have become an integral part of our online culture, providing a lighthearted way to express emotions, opinions, and ideas. With the rise of artificial intelligence (AI), the meme landscape has taken an intriguing turn. AI algorithms have started generating meme, adding a new dimension to the world of humor and creativity.
+
+AIPowerMeme was born includes crypto-savvy tech enthusiasts who geek out over artificial intelligence and can’t resist a good meme chuckle.
+With a techy twist and those who are always on the lookout for the next big, quirky investment, AIPowerMeme come.
+
+Quick Start Compile on Ubuntu 18/20
+---------------------
+
+See [Ubuntu/Debian Builds](https://github.com/aipowermeme/aipowermeme-node/blob/lata/doc/build-unix.md) or the Docs folder for your platform
+
+Disable QT when building:
+
+## Coin Info
 - Coin Name = `AIPowerMeme`
 - Ticker = `APME`
 - Algorithm = `X11`

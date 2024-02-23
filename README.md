@@ -1,36 +1,40 @@
-Coin Name = AIPowerMeme
+### Coin Info
 
-Ticker = APME
+- Coin Name = AIPowerMeme
 
-Algorithm = X11
+- Ticker = APME
 
-Premine = 100000 (Use for bounties, airdrops, marketing, development fee)
+- Algorithm = X11
 
-Maximum Supply = 42100000
+- Premine = 100000 (Use for bounties, airdrops, marketing, development fee)
 
-Block reward = 100
-Block reward structure
+- Maximum Supply = 42100000
+
+- Block reward = 100
+- Block reward structure
 - Superblock reward = 6%
 - masternode reward = 30%
 - POW miner block reward = 64%
 
-POW Maturity = 51 confirmation
+- POW Maturity = 51 confirmation
 
-number of confirmation can be spend = 10 confirmation
+- number of confirmation can be spend = 10 confirmation
 
-Masternode confirmations = 12 confirmation
+- Masternode confirmations = 12 confirmation
 
-Smartnode Collateral = 1000
+- Smartnode Collateral = 1000
 
-website = https://aipowermeme.io
+- website = https://aipowermeme.io
 
-block explorer = http://apmeexplorer.net
+- block explorer = [http://apmeexplorer.net](https://apmeexplorer.net/)
 
-Source code = https://github.com/aipowermeme
+- Source code = https://github.com/aipowermeme
 
-wallet = https://github.com/aipowermeme/aipowermeme-source/releases
+- wallet = https://github.com/aipowermeme/aipowermeme-source/releases
 
-twitter/x = https://twitter.com/aipowermeme
+- twitter/x = https://twitter.com/aipowermeme
 
-bitcointalk: 
-discord = https://discord.gg/VS6hUk3cE4
+## Bitcointalk: 
+
+## Discord
+- discord = https://discord.gg/VS6hUk3cE4

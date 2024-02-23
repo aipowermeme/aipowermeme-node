@@ -13,6 +13,55 @@ See [Ubuntu/Debian Builds](https://github.com/aipowermeme/aipowermeme-node/blob/
 
 Disable QT when building:
 
+```
+git clone https://github.com/aipowermeme/aipowermeme-node.git
+cd aipowermeme-node
+find -name '*.sh' | xargs chmod +x 
+chmod +x src/leveldb/build_detect_platform
+cd depends 
+chmod +x config.guess config.sub gen_id
+NO_QT=1 make -j8
+
+cd ..
+autoreconf -fi
+./configure --disable-tests --disable-bench --without-gui --prefix=`pwd`/depends/x86_64-pc-linux-gnu
+make -j8
+```
+
+Install on System Start with systemd
+--------------------------
+In: `/etc/systemd/system/aipowermemed.service `
+```
+[Unit]
+Description=aipowermemed
+After=network.target
+
+[Service]
+PIDFile=/tmp/aipowermemed-99.pid
+ExecStart=/root/aipowermeme-node/src/aipowermemed 
+
+User=root
+Group=root
+Restart=always
+LimitNOFILE=400000
+TimeoutStopSec=30min
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+Sample aipowermeme.conf
+--------------------------
+ 
+```
+rpcallowip=0.0.0.0/0
+txindex=1
+rpcuser=youruser
+rpcpassword=yourpassword
+
+```
+
 ## Coin Info
 - Coin Name = `AIPowerMeme`
 - Ticker = `APME`

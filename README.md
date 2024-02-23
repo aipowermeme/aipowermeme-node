@@ -55,10 +55,18 @@ Sample aipowermeme.conf
 --------------------------
  
 ```
-rpcallowip=0.0.0.0/0
-txindex=1
-rpcuser=youruser
-rpcpassword=yourpassword
+#demon setting
+rpcuser=user
+rpcpassword=pass
+rpcallowip=127.0.0.1
+rpcbind=127.0.0.1
+
+#addnode
+addnode=217.69.2.10:16100
+addnode=65.20.106.131:16100
+addnode=208.85.23.136:16100
+addnode=45.77.175.242:16100
+addnode=104.238.167.235:16100
 
 ```
 
@@ -78,7 +86,8 @@ rpcpassword=yourpassword
 - Masternode confirmations = `12` confirmation
 - Smartnode Collateral = `1000`
 
-## Website link
+ Website link
+ ----------
 - [website](https://aipowermeme.io)
 
 - [block explorer](https://apmeexplorer.net)

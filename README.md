@@ -24,17 +24,17 @@
 
 - Smartnode Collateral = 1000
 
-- website = https://aipowermeme.io
+- website = [https://aipowermeme.io](https://aipowermeme.io)
 
-- block explorer = [http://apmeexplorer.net](https://apmeexplorer.net/)
+- block explorer = [https://apmeexplorer.net](https://apmeexplorer.net/)
 
-- Source code = https://github.com/aipowermeme
+- Source code = [https://github.com/aipowermeme](https://github.com/aipowermeme)
 
-- wallet = https://github.com/aipowermeme/aipowermeme-source/releases
+- wallet = [https://github.com/aipowermeme/aipowermeme-source/releases](https://github.com/aipowermeme/aipowermeme-source/releases)
 
-- twitter/x = https://twitter.com/aipowermeme
+- twitter/x = [https://twitter.com/aipowermeme](https://twitter.com/aipowermeme)
 
 ## Bitcointalk: 
 
 ## Discord
-- discord = https://discord.gg/VS6hUk3cE4
+- [discord](https://discord.gg/VS6hUk3cE4)
